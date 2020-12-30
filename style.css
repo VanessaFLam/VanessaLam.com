@@ -80,14 +80,15 @@ nav {
 /*ABOUT ME*/
 
 .About-Me-Container {
-  display: table-cell;
-  width: 100%;
+  /* display: table-cell; */
+  /* width: 100%; */
   padding-top: 7%;
   padding-bottom: 7%;
-  vertical-align: middle;
-  margin: auto;
+  /* vertical-align: middle; */
+  /* margin: auto; */
   position: relative;
   line-height: 40px;
+  background-color: #eee;
 }
 
 .pic {
@@ -108,9 +109,9 @@ nav {
   font-size: 20px;
   font-weight: lighter;
   margin: auto;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  /* position: absolute; */
+  /* top: 50%;
+  transform: translateY(-50%); */
   color: #1e1e1e;
 }
 
@@ -170,7 +171,6 @@ nav {
   width: 66%;
   float: left;
 }
-
 .dates {
   width: 33%;
   float: right;
