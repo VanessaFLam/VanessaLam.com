@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Dosis', sans-serif;
+  color: rgba(63,64,40,1);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* MENU */
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+.menu {
+  margin-left: 3%;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14;
+  font-family: 'Dosis', sans-serif;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
+.menu li a:hover{
+  color: green;
+}
+
+
+/*HEADER*/
+
+.header-banner {
+  background-image:url("img/1126VanessaAldoPreviews_LS_014.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100%;
+
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 2.5%;
+  background-color: #eee;
+  color: #FFF;
+}
+
+.header-banner h3 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+/*ABOUT ME*/
+
+.About-Me-Container {
+  display: table-cell;
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  vertical-align: middle;
+  margin: auto;
+  position: relative;
+  line-height: 40px;
+}
+
+.pic {
+  width: 25%;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.bio {
+  display: inline-block;
+  vertical-align: middle;
+  width: 75%;
+  float: right;
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1e1e1e;
+}
+
+.img-Vanessa-Headshot {
+  width: 65%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.clear {
+  clear: both;
+}
+
+/*PROJECTS*/
+
+.Projects {
+  padding: 4% 7%;
+  background-color: rgba(63,64,40,0.1);
+  color: rgba(63,64,40,1);
+  text-decoration: none;
+}
+
+.Projects ul {
+  font-size: 20px;
+  padding-left: 4%;
+  font-weight: lighter;
+}
+
+.Articles div {
+  color: #388039;
+}
+
+.Speaking {
+  /* display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  margin: auto;
+  position: relative; */
+}
+
+.Speaking-List {
+  float: left;
+  font-weight: lighter;
+  width: 66%;
+}
+
+.rightalign {
+  float: right;
+}
+
+.leftalign {
+  float: left;
+  font-weight: normal;
+}
+
+/* .places {
+  width: 66%;
+  float: left;
+}
+
+.dates {
+  width: 33%;
+  float: right;
+  text-align: right;
+  list-style-type: none;
+} */
+
+/* .Speaking-pic {
+  width: 33%;
+  float: right;
+} */
+
+.img-Vanessa-Speaking {
+  width: 70%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*Community*/
+
+.Community {
+  padding: 4% 10%;
+  padding-bottom: 10%;
+}
+
+.Community-text {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.Communityleftalign {
+  width: 45%;
+  float: left;
+  padding-bottom: 10%;
+}
+
+.Communityrightalign {
+  width: 45%;
+  float: right;
+  padding-bottom: 10%;
+}
+
+.img-Tableau-Ambassador {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img-GAPSA-Logo {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img-CIT59x-Logo {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
