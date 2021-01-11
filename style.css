@@ -264,6 +264,10 @@ nav {
   font-weight: lighter;
 }
 
+.Projects li {
+  font-size: 20px;
+}
+
 .Articles div {
   color: #388039;
 }
@@ -284,11 +288,13 @@ nav {
 
 .rightalign {
   float: right;
+  font-size: 20px;
 }
 
 .leftalign {
   float: left;
   font-weight: normal;
+  font-size: 20px;
 }
 
 /* .places {
